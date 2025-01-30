@@ -675,7 +675,7 @@ footer .logo span {
   justify-content: center;
   fill: transparent;
 }
-.terms-and-conditions-span:checked {
+.terms-and-conditions-span:checked+label {
   background-color: #404bbf;
   border: none;
   fill: #F4F4FD;
@@ -698,8 +698,8 @@ footer .logo span {
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.user-privacy:checked + span {
-  background-color: #404bbf;
-  border: none;
-  fill: #F4F4FD;
+
+.user-privacy:focus+svg.modal-input-icon {
+  border-color: #4D5AE5;
+  fill:#4d5ae5;
 }
