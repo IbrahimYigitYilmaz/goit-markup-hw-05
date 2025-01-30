@@ -582,10 +582,10 @@ footer .logo span {
 .icon-close-black-18dp-2-1 {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close-button:hover+svg {
+.modal-close-button:hover .icon-close-black-18dp-2-1 {
   fill: #ffffff;
 }
-.modal-close-button:hover+svg {
+.modal-close-button:hover .icon-close-black-18dp-2-1 {
   fill: #ffffff;
 }
 .modal-text {
