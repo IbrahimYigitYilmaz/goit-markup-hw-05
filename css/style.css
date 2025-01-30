@@ -675,10 +675,10 @@ footer .logo span {
   justify-content: center;
   fill: transparent;
 }
-.terms-and-conditions-span:checked+label {
+.user-privacy:checked +.terms-and-conditions .terms-and-conditions-span {
   background-color: #404bbf;
   border: none;
-  fill: #F4F4FD;
+  fill: #F4F4FD;
 }
 .privacy-policy {
   color: #4d5ae5;
