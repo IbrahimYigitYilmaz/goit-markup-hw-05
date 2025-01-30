@@ -585,7 +585,7 @@ footer .logo span {
 .modal-close-button:hover .icon-close-black-18dp-2-1 {
   fill: #ffffff;
 }
-.modal-close-button:hover .icon-close-black-18dp-2-1 {
+.modal-close-button:focus .icon-close-black-18dp-2-1 {
   fill: #ffffff;
 }
 .modal-text {
